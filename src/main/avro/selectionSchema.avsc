@@ -1,0 +1,23 @@
+{
+  "namespace": "org.example.messaging",
+  "type": "record",
+  "name": "Selection",
+  "fields": [
+    {"name": "id",
+      "type": "string",
+      "default": "null"
+    },
+    {"name": "name",
+      "type": "string"
+    },{
+      "name": "price",
+      "type": "double"
+    },{
+      "name": "market",
+      "type": "string"
+    },{
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}
